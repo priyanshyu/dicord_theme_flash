@@ -52,7 +52,7 @@
   --background-overlay: rgba(0,0,0,0.6);
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://cdn.discordapp.com/avatars/584392188712976417/fe03506b20d588c6cd6c6264256eade4.webp?size=1024&format=webp); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://raw.githubusercontent.com/priyanshyu/dicord_theme_flash/refs/heads/main/flash_avatar.webp); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
@@ -79,7 +79,7 @@
   --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: url('https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg');
+  --user-popout-image: url('https://raw.githubusercontent.com/priyanshyu/dicord_theme_flash/refs/heads/main/poput_image.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -92,7 +92,7 @@
   --user-popout-blur: 3px;
   
   /* USER MODAL BACKGROUND */
-  --user-modal-image: url('https://c4.wallpaperflare.com/wallpaper/459/1000/937/jett-valorant-valorant-video-games-video-game-girls-drawing-hd-wallpaper-preview.jpg');
+  --user-modal-image: url('https://raw.githubusercontent.com/priyanshyu/dicord_theme_flash/refs/heads/main/modal_popout_image.jpg');
   --user-modal-position: center;
   --user-modal-size: contain;
   --user-modal-repeat: repeat;
