@@ -1,17 +1,12 @@
 /**
- * @name ClearVision
- * @author ClearVision Team
- * @version 6.9.0
+ * @name CW_Flash
+ * @author priyanshu_v
+ * @version 0.0.1
  * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite dHaSxn3
  */
 
-/* Credits to Zerthox for making the original theme. */
-
 /* IMPORT CSS */
-@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://github.com/priyanshyu/dicord_theme_flash/blob/main/css-beautify-minify.css);
 
 /* SETTINGS */
 :root {
@@ -42,21 +37,22 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
-  --background-position: center; /* app background position [default: center] */
-  --background-size: cover; /* app background size [default: cover] */
-  --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
-  --background-attachment: fixed; /* app background attachment [default: fixed] */
-  --background-brightness: 100%; /* app background brightness (< 100% for darken, > 100% for lighten) [default: 100%] */
-  --background-contrast: 100%; /* app background contrast [default: 100%] */
-  --background-saturation: 100%; /* app background saturation [default: 100%] */
-  --background-invert: 0%; /* app background invert (0 - 100%)  [default: 0%] */
-  --background-grayscale: 0%; /* app background grayscale ( 0 - 100%) [default: 0%] */
-  --background-sepia: 0%; /* app background sepia (0 - 100%) [default: 0%] */
-  --background-blur: 0px; /* app background blur [default: 0px] */
+  --background-image: url('https://i.imgur.com/lvlSY8E.jpeg');
+  --background-shading: 36%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 123%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://cdn.discordapp.com/avatars/584392188712976417/fe03506b20d588c6cd6c6264256eade4.webp?size=1024&format=webp); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
@@ -83,34 +79,31 @@
   --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
-  --user-popout-position: var(--background-position); /* user popout background position [default: var(--background-position)] */
-  --user-popout-size: var(--background-size); /* user popout background size [default: var(--background-size)] */
-  --user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(--background-repeat)] */
-  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
-  --user-popout-brightness: var(--background-brightness); /* user popout background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
-  --user-popout-contrast: var(--background-contrast); /* user popout background contrast [default: var(--background-contrast)] */
-  --user-popout-saturation: var(--background-saturation); /* user popout background saturation [default: var(--background-saturation)] */
-  --user-popout-invert: var(--background-invert); /* user popout background invert (0 - 100%) [default: var(--background-invert)] */
-  --user-popout-grayscale: var(--background-grayscale); /* user popout background grayscale (0 - 100%) [default: var(--background-grayscale)] */
-  --user-popout-sepia: var(--background-sepia); /* user popout background sepia (0 - 100%) [default: var(--background-sepia)] */
-  --user-popout-blur: calc(var(--background-blur) + 3px); /* user popout background blur [default: calc(var(--background-blur) + 3px)] */
-  --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
-
+  --user-popout-image: url('https://c4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-preview.jpg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: scroll;
+  --user-popout-brightness: 101%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
-  --user-modal-position: var(--background-position); /* user modal background position [default: var(--background-position)] */
-  --user-modal-size: var(--background-size); /* user modal background size [default: var(--background-size)] */
-  --user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(--background-repeat)] */
-  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
-  --user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
-  --user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(--background-contrast)] */
-  --user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(--background-saturation)] */
-  --user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(--background-invert)] */
-  --user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
-  --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
-  --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
-
+  --user-modal-image: url('https://c4.wallpaperflare.com/wallpaper/459/1000/937/jett-valorant-valorant-video-games-video-game-girls-drawing-hd-wallpaper-preview.jpg');
+  --user-modal-position: center;
+  --user-modal-size: contain;
+  --user-modal-repeat: repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 30%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 1px;
+  
   /* THEME BD COLORS */
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
