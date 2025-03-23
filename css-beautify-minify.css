@@ -472,29 +472,30 @@ textarea,
     white-space: nowrap;
     order: 1;
 }
+/*Important*/
 .typeWindows__421ed > .wordmark__421ed:before {
     content: "FLASH";
-  color: red;
-  font-family: 'Elements';
-  font-family: 'BN Elements';
-  font-size: 16px;
-  letter-spacing: 0.25em;
-  animation: flash 3s infinite;
+    color: red;
+    font-family: 'Elements';
+    font-family: 'BN Elements';
+    font-size: 16px;
+    letter-spacing: 0.25em;
+    animation: flash 3s infinite;
 }
 
 /*@keyframes flash {
-  0% {
-    color: red;
-  }
-  33% {
-    color: orange;
-  }
-  66% {
-    color: yellow;
-  }
-  100% {
-    color: red;
-  }
+    0% {
+        color: red;
+    }
+    33% {
+        color: orange;
+    }
+    66% {
+        color: yellow;
+    }
+    100% {
+        color: red;
+    }
 }*/
 
 .typeWindows__421ed > .wordmark__421ed:after {
@@ -512,6 +513,7 @@ textarea,
 .typeWindows__421ed > .wordmark__421ed > svg > g > path:first-child {
     display: none !important
 }
+/*Important*/
 .typeWindows__421ed > .wordmark__421ed > svg > g > path:not(:first-child) {
     display: none;
 }
