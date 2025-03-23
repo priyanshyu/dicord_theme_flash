@@ -489,7 +489,7 @@ textarea,
     margin-top: 6px;
 }
 .typeWindows__421ed > .wordmark__421ed > svg > g > path {
-    fill: var(--main-color);
+    fill: red;
 }
 .typeWindows__421ed > .wordmark__421ed > svg > g > path:first-child {
     d: path(
