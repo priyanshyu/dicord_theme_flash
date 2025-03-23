@@ -26,7 +26,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://i.imgur.com/lvlSY8E.jpeg);
+    --background-image: url('https://raw.githubusercontent.com/priyanshyu/dicord_theme_flash/refs/heads/main/bg_image.jpeg');
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -76,9 +76,9 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+    --home-icon: url('https://raw.githubusercontent.com/priyanshyu/dicord_theme_flash/refs/heads/main/flash_avatar.webp');
     --home-position: center;
-    --home-size: 40px;
+    --home-size: 48px;
     --popout-color: rgba(0, 0, 0, 0.7);
     --modal-color: rgba(0, 0, 0, 0.5);
     --card-color: rgba(0, 0, 0, 0.4);
@@ -88,6 +88,7 @@
     --font-primary: var(--main-font);
     --font-code: var(--code-font);
 }
+
 @keyframes cv-fade-in {
     from {
         opacity: 0;
@@ -472,13 +473,13 @@ textarea,
     order: 1;
 }
 .typeWindows__421ed > .wordmark__421ed:before {
-    content: "ClearVision";
+    content: "Flash";
     color: hsla(0, 0%, 100%, 0.7);
     font-size: 14px;
     text-shadow: 0 0 3px #000;
 }
 .typeWindows__421ed > .wordmark__421ed:after {
-    content: "v6.9.0";
+    content: "A man often meets his destiny on the very road he takes to avoid it.";
     color: hsla(0, 0%, 100%, 0.3);
     font-family: var(--code-font);
     font-size: 10px;
